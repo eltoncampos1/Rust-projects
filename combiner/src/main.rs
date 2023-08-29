@@ -28,7 +28,8 @@ fn main() -> Result<(), ImageDataErrors> {
         output.width, 
         output.height, 
         image::ColorType::Rgba8, 
-        image_1_format)
+        image_1_format,
+        )
         .unwrap();
     Ok(())
 }
